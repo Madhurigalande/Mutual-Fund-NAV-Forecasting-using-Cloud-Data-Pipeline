@@ -1,6 +1,6 @@
 
 
-# 📈 Mutual Fund NAV Forecasting – Streamlit App
+# 📈 Mutual Fund NAV Forecasting using Cloud Data Pipeline
 
 This project is an **interactive web application** built with **Streamlit** to forecast the **Net Asset Value (NAV)** of mutual funds using multiple **time-series** and **machine learning algorithms**.  
 It integrates with an **Azure SQL Database**, retrieves mutual fund data dynamically, and provides **visual analytics + forecasting**.
