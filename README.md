@@ -2,8 +2,7 @@
 
 This project is an **interactive web application** built with **Streamlit** to forecast the **Net Asset Value (NAV)** of mutual funds using multiple **time-series** and **machine learning algorithms**.  
 It integrates with an **Azure SQL Database**, retrieves mutual fund data dynamically, and provides **visual analytics + forecasting**.
-
----Built end-to-end NAV forecasting pipeline using Azure services and time-series ML models.Automated data ingestion from APIs using Python and Apache Airflow. Developed ETL workflows in Azure
+Built end-to-end NAV forecasting pipeline using Azure services and time-series ML models.Automated data ingestion from APIs using Python and Apache Airflow. Developed ETL workflows in Azure
 Data Factory and Databricks.Delivered predictions and insights through Power BI dashboards.
 
 ## 🎯 Project Overview
@@ -39,7 +38,6 @@ Project interface-3.png
 Project interface-4.png
 
 ---
-
 ## 🛠️ Tech Stack
 
 - **Frontend/UI:** Streamlit, Plotly  
