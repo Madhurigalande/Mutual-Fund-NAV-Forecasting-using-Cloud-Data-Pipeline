@@ -28,16 +28,12 @@ The app allows users to:
 ## 🖥️ App Interface
 
 Here are some screenshots of the working application:
-
 ### 🔍 Fund Selection & NAV Trend  
 Project Interface-1.png
-
 ### 📊 Fund Metadata & Similar Funds  
 Project Interface-2.png
-
 ### 📈 Forecasting with ARIMA  
 Project interface-3.png
-
 ### 📉 Forecasting with Exponential Smoothing  
 Project interface-4.png
 
