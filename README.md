@@ -1,12 +1,9 @@
-
-
-# 📈 Mutual Fund NAV Forecasting using Cloud Data Pipeline
+# 📈 Mutual Fund NAV Forecasting – Streamlit App
 
 This project is an **interactive web application** built with **Streamlit** to forecast the **Net Asset Value (NAV)** of mutual funds using multiple **time-series** and **machine learning algorithms**.  
 It integrates with an **Azure SQL Database**, retrieves mutual fund data dynamically, and provides **visual analytics + forecasting**.
 
----Built end-to-end NAV forecasting pipeline using Azure services and time-series ML models Automated data ingestion from APIs using Python and Apache Airflow Developed ETL workflows in Azure Data Factory and
-Databricks Delivered predictions and insights through Power BI dashboards.
+---
 
 ## 🎯 Project Overview
 
@@ -28,22 +25,21 @@ The app allows users to:
 
 ---
 
-## 🖥️ App Features
+## 🖥️ App Interface
 
-- **Interactive Dashboard:**  
-  - Fund selection dropdown  
-  - Line chart of NAV over time  
-  - Metrics for fund details (fund house, manager, returns, CRISIL rating, etc.)  
-  - Similar fund navigation buttons  
+Here are some screenshots of the working application:
 
-- **Forecasting Section:**  
-  - Select forecast horizon (1–30 days)  
-  - Choose prediction algorithm  
-  - Compare historical vs forecasted NAVs in interactive charts  
+### 🔍 Fund Selection & NAV Trend  
+Project Interface-1.png
 
-- **Visualization:**  
-  - Built with **Plotly Express** (dark theme)  
-  - Side-by-side comparison of history vs forecast  
+### 📊 Fund Metadata & Similar Funds  
+Project Interface-2.png
+
+### 📈 Forecasting with ARIMA  
+Project interface-3.png
+
+### 📉 Forecasting with Exponential Smoothing  
+Project interface-4.png
 
 ---
 
@@ -64,6 +60,8 @@ The app allows users to:
 ├── main.py # Streamlit app entry point
 ├── scheme_codes.json # Mutual fund scheme codes and names
 ├── README.md # Project documentation
+├── Project Interface-1.png
+├── Project Interface-2.png
+├── Project Interface-3.png
+├── Project Interface-4.png
 └── /videos # Demo & walkthrough videos
-
-
