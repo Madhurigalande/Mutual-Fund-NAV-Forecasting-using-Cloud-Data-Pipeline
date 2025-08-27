@@ -30,12 +30,20 @@ The app allows users to:
 Here are some screenshots of the working application:
 ### 🔍 Fund Selection & NAV Trend  
 Project Interface-1.png
-### 📊 Fund Metadata & Similar Funds  
+<img width="1907" height="832" alt="Project Interface-1" src="https://github.com/user-attachments/assets/45db1975-4ebc-46d6-961d-2f841c6ff519" />
+
+### 📊 Fund Metadata & Similar Funds 
 Project Interface-2.png
+<img width="1912" height="817" alt="Project Interface-2" src="https://github.com/user-attachments/assets/6cff7993-be21-4848-8780-45bee2a12095" />
+
 ### 📈 Forecasting with ARIMA  
 Project interface-3.png
+<img width="1902" height="817" alt="Project interface-3" src="https://github.com/user-attachments/assets/7e103039-b684-4cd2-915e-4ac9378b8530" />
+
 ### 📉 Forecasting with Exponential Smoothing  
 Project interface-4.png
+<img width="1878" height="832" alt="Project interface-4" src="https://github.com/user-attachments/assets/fa7a1bba-792a-4abf-b2f4-d7d8ed2f7820" />
+
 
 ---
 ## 🛠️ Tech Stack
