@@ -4,7 +4,7 @@
 [![Azure](https://img.shields.io/badge/Cloud-Azure-blue)](https://azure.microsoft.com/)  
 [![Python](https://img.shields.io/badge/Language-Python-green)](https://www.python.org/)  
 
-This project is an **interactive web application** built with **Streamlit** to forecast the **Net Asset Value (NAV)** of mutual funds using multiple **time-series** and **machine learning algorithms**.  
+This project is an interactive web application built with **Streamlit** to forecast the **Net Asset Value (NAV)** of mutual funds using multiple **time-series** and **machine learning algorithms**.  
 
 It integrates with an **Azure SQL Database**, retrieves mutual fund data dynamically, and provides **visual analytics + forecasting**.  
 A complete **data pipeline** is developed using **Azure Data Factory, Databricks, SQL DB, and Apache Airflow** for automated ingestion, transformation, and forecasting.  
@@ -24,31 +24,25 @@ Insights are visualized through **Power BI dashboards**.
 
 ## 🔧 Forecasting Models Implemented
 
-### 1. **Linear Regression (Baseline Model)**
+### 1. Linear Regression (Baseline Model)
 - Models NAV trend as a linear function of time.  
 - Provides a **benchmark prediction**.  
 - ✅ Pros: Simple, fast, interpretable  
 - ❌ Cons: Cannot capture seasonality or non-linearity  
 
----
-
-### 2. **ARIMA (Auto-Regressive Integrated Moving Average)**
+### 2. ARIMA (Auto-Regressive Integrated Moving Average)
 - Statistical time-series model defined by `(p, d, q)`.  
 - Example: **ARIMA(2,1,2)** used here.  
 - ✅ Pros: Captures trend + short-term dependencies  
 - ❌ Cons: Needs careful tuning, assumes stationarity  
 
----
-
-### 3. **Exponential Smoothing (Holt-Winters)**
+### 3. Exponential Smoothing (Holt-Winters)
 - Assigns **exponentially decreasing weights** to past observations.  
 - Handles **trend + seasonality**.  
 - ✅ Pros: Great for seasonal NAV data  
 - ❌ Cons: Struggles with sudden market shocks  
 
----
-
-### 4. **LSTM Neural Network (Deep Learning)**
+### 4. LSTM Neural Network (Deep Learning)
 - A **Recurrent Neural Network (RNN)** for sequential data.  
 - Learns long-term dependencies in NAV series.  
 - ✅ Pros: Captures non-linear + complex patterns  
@@ -59,16 +53,16 @@ Insights are visualized through **Power BI dashboards**.
 ## 🖥️ Application Interface
 
 ### 🔍 Fund Selection & NAV Trend  
-<img width="1907" height="832" alt="Project Interface-1" src="https://github.com/user-attachments/assets/45db1975-4ebc-46d6-961d-2f841c6ff519" />
+![Interface-1](https://github.com/user-attachments/assets/45db1975-4ebc-46d6-961d-2f841c6ff519)
 
 ### 📊 Fund Metadata & Similar Funds 
-<img width="1912" height="817" alt="Project Interface-2" src="https://github.com/user-attachments/assets/6cff7993-be21-4848-8780-45bee2a12095" />
+![Interface-2](https://github.com/user-attachments/assets/6cff7993-be21-4848-8780-45bee2a12095)
 
 ### 📈 Forecasting with ARIMA  
-<img width="1902" height="817" alt="Project interface-3" src="https://github.com/user-attachments/assets/7e103039-b684-4cd2-915e-4ac9378b8530" />
+![Interface-3](https://github.com/user-attachments/assets/7e103039-b684-4cd2-915e-4ac9378b8530)
 
 ### 📉 Forecasting with Exponential Smoothing  
-<img width="1878" height="832" alt="Project interface-4" src="https://github.com/user-attachments/assets/fa7a1bba-792a-4abf-b2f4-d7d8ed2f7820" />
+![Interface-4](https://github.com/user-attachments/assets/fa7a1bba-792a-4abf-b2f4-d7d8ed2f7820)
 
 ---
 
@@ -88,14 +82,6 @@ Insights are visualized through **Power BI dashboards**.
 
 ---
 
-## ⚙️ Installation & Setup
-
-Clone this repository:
-
-```bash
-git clone https://github.com/your-username/mutual-fund-nav-forecasting.git
-cd mutual-fund-nav-forecasting
-
 ├── main.py                 # Streamlit app entry point
 ├── scheme_codes.json       # Mutual fund scheme codes and names
 ├── README.md               # Project documentation
@@ -103,12 +89,13 @@ cd mutual-fund-nav-forecasting
 ├── Project Interface-2.png
 ├── Project Interface-3.png
 ├── Project Interface-4.png
-└── /videos                 # Demo & walkthrough videos
+└── /videos                 # Demo & walkthrough videos  
 
+# 📊 Key Outcomes & Future Improvements
 
-# 📊 Key Outcomes & Future Improvements  
+---
 
-## ✅ Key Outcomes  
+## ✅ Key Outcomes
 
 - **Automated Data Pipeline**  
   - Built end-to-end NAV ingestion pipeline using **Apache Airflow + Azure Data Factory + Databricks**.  
@@ -134,7 +121,7 @@ cd mutual-fund-nav-forecasting
 
 ---
 
-## 🚀 Future Improvements  
+## 🚀 Future Improvements
 
 - **Deployment & Scalability**  
   - Deploy application on **Azure App Service** or **Docker + Kubernetes** for production use.  
@@ -160,6 +147,6 @@ cd mutual-fund-nav-forecasting
 
 ---
 
-📌 This roadmap ensures the solution is **scalable, production-ready, and investor-friendly** while continuously improving forecast accuracy and usability.  
+📌 This roadmap ensures the solution is **scalable, production-ready, and investor-friendly**, while continuously improving forecast accuracy and usability.
 
 
